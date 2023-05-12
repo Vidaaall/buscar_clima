@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meteorologia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    {% if cidade %}
+    <h1>Informações sobre {{cidade}}</h1>
+    <p>A temperatura atual em {{cidade}} é: {{temperatura}}°C.</p>
+    <p>A sensação térmica é de: {{sensacao_termica}}°C.</p>
+    <p>A umidade é de: {{umidade}}%.</p>
+    <p>A velocidade do vento é de: {{vento}} km/h.</p>
+    <p>Descrição do clima: {{descricao}}.</p>
+    {% else %}
+    <h1>Busque por uma cidade</h1>
+    {% endif %}
+    <form action="/" method="post">
+        <input type="text" name="cidade" placeholder="Digite o nome da cidade">
+        <input type="submit" value="Buscar">
+    </form>
+</body>
+
+</html>"

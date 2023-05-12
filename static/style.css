@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #5b5b5b;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type=text] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+input[type=submit] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
