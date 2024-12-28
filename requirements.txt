@@ -10,4 +10,4 @@ Jinja2==3.1.2
 MarkupSafe==2.1.2
 requests==2.30.0
 urllib3==2.2.2
-Werkzeug==2.3.4
+Werkzeug==3.0.6
